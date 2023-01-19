@@ -1,61 +1,26 @@
 body {
-    background-color:  #E9ECF8;
+    background-color: #E9ECF8;
 }
 
-.header img{
-    position: absolute;
-    left: 4.67%;
-    right: 37.43%;
-    top: 5%;
-    bottom: 0%;
+.main-logo {
+    position: relative;
+    margin: 0 100px;
+    padding: 70px 0px;
 }
 
 .main-text-input {
-    padding-left: 280px;
-    margin-top: 150px;
-    font-size: 25px;
-    color: #0A3871;
+    margin: 0 0 20px;
+    padding: 10px 250px;
 }
 
-.attention img {
-    padding-left: 280px;
-    margin-top: 500px;
+.main-description img,
+p {
+    display: inline-flex;
+    margin: 0 0 -10px;
 }
 
-.attention p {
-    padding-left: 300px;
-    margin-top: -20px;
-    margin-left: 10px;
-}
-
-.btn-encrypt {
-    background: #0A3871;
-    margin-left: 300px;
-    margin-right: 1400px;
-    border: 20px solid;
-    border-color: #0A3871;
-    border-radius: 20px;
-} 
-
-.btn-encrypt a {
-    text-decoration: none;
-    color: white;
-    padding-left: 40px;
-}
-
-.btn-decrypt a {
-    text-decoration: none;
-    color: #0A3871;
-    padding-left: 18px;
-}
-
-.btn-decrypt {
-    background: #D8DFE8;
-    padding-left: 10px;
-    margin-top: -57px;
-    border: 20px solid;
-    border-color: #D8DFE8;
-    border-radius: 20px;
-    margin-right: 1180px;
-    margin-left: 530px;
+.main-description img {
+    width: 50px;
+    height: 30px;
+    margin-left: 240px;
 }

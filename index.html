@@ -10,30 +10,22 @@
 </head>
 
 <body>
-    <section>
-        <div class="header">
-            <header>
-                <img src="/assets/img/logo.svg">
-            </header>
+    <header>
+        <div class="main-logo">
+            <img src="./assets/img/logo.svg">
         </div>
-    </section>
-    <section>
-        <div class="main-text-input">
-            <script>
-                var main_input = document.write("Digite seu texto ");
-            </script>
-        </div>
-        <div class="attention">
-            <img src="/assets/img/attention.svg">
+    </header>
+    <main>
+        <form>
+            <div class="main-text-input">
+                <textarea cols="145" rows="40" id="mensagem" required placeholder="Digite o texto"></textarea>
+            </div>
+        </form>
+        <div class="main-description">
+            <img src="./assets/img/attention.svg">
             <p> Apenas letras minúsculas e sem acento. </p>
         </div>
-            <div class="btn-encrypt">
-                <a href="#">Criptografar</a>
-            </div>
-            <div class="btn-decrypt">
-                <a href="#">Descriptografar</a>
-            </div>
-        </div>
-    </section>
+    </main>
 </body>
+
 </html>
