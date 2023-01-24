@@ -24,3 +24,27 @@ p {
     height: 30px;
     margin-left: 240px;
 }
+
+.btn-crypt {
+    background-color: #0A3871;
+    color: #FFFFFF;
+}
+
+.btn-encrypt {
+    background-color: #D8DFE8;
+    color:  #0A3871;
+    border: 1px solid #0A3871
+}
+
+.btn-crypt, .btn-encrypt {
+    position: relative;
+    width: 12%;
+    padding: 24px 0;
+    top: -40px;
+    left: 30.5%;
+    font-weight: bold;
+    font-size: 18px;
+    border-radius: 23px;
+    margin-left: 30px;
+    cursor: pointer;
+}
