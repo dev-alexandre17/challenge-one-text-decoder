@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/style.css">
+    <script type="text/javascript" src="js/main.js"></script>
     <title>Decodificador de Texto</title>
 </head>
 
@@ -18,17 +19,16 @@
     <main>
         <form>
             <div class="main-text-input">
-                <textarea cols="145" rows="40" id="mensagem" required placeholder="Digite o texto"></textarea>
+                <textarea cols="50" rows="16" id="texto-entrada" maxlength="832"
+                    placeholder="Digite o texto"></textarea>
+                <button onclick="encrypt()" id="criptografar">Criptografar</button>
+                <button onclick="descrypt()" id="descriptografar">Descriptografar</button>
             </div>
         </form>
         <div class="main-description">
             <img src="./assets/img/attention.svg">
             <p> Apenas letras minúsculas e sem acento. </p>
         </div>
-        <section>
-            <input type="submit" value="Criptografar" class="btn-crypt">
-            <input type="submit" value="Descriptografar" class="btn-encrypt">
-        </section>
     </main>
 </body>
 

@@ -8,43 +8,66 @@ body {
     padding: 70px 0px;
 }
 
+.main-text-input>textarea {
+    border: none;
+    color: darkblue;
+    font-size: 32px;
+    background-color: #E9ECF8;
+}
+
+.main-text-input>textarea::placeholder {
+    font-size: 32px;
+    color: darkblue;
+}
+
+.main-text-input>textarea:focus {
+    outline: none;
+}
+
+.main-text-input:focus {
+    outline: none;
+}
+
+.main-text-input > button {
+    position: relative;
+    right: 33.4%;
+    bottom: -50px;
+    width: 15%;
+    padding: 15px 0;
+    font-size: 18px;
+    border-radius: 23px;
+    margin-left: 20px;
+}
+
 .main-text-input {
-    margin: 0 0 20px;
-    padding: 10px 250px;
+    color: #0A3871;
+    padding: 0px 210px;
+}
+
+.main-text-input > button, #criptografar {
+    background-color: #0A3871;
+    color: #FFFFFF;
+}
+
+.main-text-input > button, #descriptografar {
+    background-color: #D8DFE8;
+    color: #0A3871;
+    border: 1px solid #0A3871;
 }
 
 .main-description img,
 p {
-    display: inline-flex;
-    margin: 0 0 -10px;
+    position: absolute;
+    left: 10.8%;
 }
 
 .main-description img {
     width: 50px;
     height: 30px;
-    margin-left: 240px;
+    top: 86.7%;
 }
 
-.btn-crypt {
-    background-color: #0A3871;
-    color: #FFFFFF;
-}
-
-.btn-encrypt {
-    background-color: #D8DFE8;
-    color:  #0A3871;
-    border: 1px solid #0A3871
-}
-
-.btn-crypt, .btn-encrypt {
-    position: relative;
-    width: 12%;
-    padding: 24px 0;
-    top: -40px;
-    left: 30.5%;
-    font-weight: bold;
-    font-size: 18px;
-    border-radius: 23px;
-    margin-left: 30px;
-    cursor: pointer;
+.main-description p {
+    left: 260px;
+    top: 85.6%;
 }
