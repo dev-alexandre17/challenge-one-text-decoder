@@ -13,6 +13,7 @@ body {
     color: darkblue;
     font-size: 32px;
     background-color: #E9ECF8;
+    resize: none;
 }
 
 .main-text-input>textarea::placeholder {
@@ -70,4 +71,35 @@ p {
 .main-description p {
     left: 260px;
     top: 85.6%;
+}
+
+.main-text-output {
+    position: absolute;
+    top: 9%;
+    left: 73%;
+    background-color: white;
+    width: 22%;
+    height: 85%;
+    border-radius: 32px;
+}
+
+.main-text-output > img {
+    position: relative;
+    right: -10%;
+    top: 15%;
+}
+
+.main-text-output > .description-character {
+    display: inline;
+    top: 55%;
+    left: 9%;
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.main-text-output > .subdescription-character {
+    display: inline;
+    top: 62%;
+    font-size: 16px;
+    left: 9%;
 }
