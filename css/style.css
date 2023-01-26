@@ -38,6 +38,7 @@ body {
     font-size: 18px;
     border-radius: 23px;
     margin-left: 20px;
+    cursor: pointer;
 }
 
 .main-text-input {
